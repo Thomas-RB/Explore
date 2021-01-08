@@ -1,0 +1,27 @@
+.footer-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90.4rem;
+    left: 5.6rem;
+    height: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 95%;
+    font-size: 2rem !important;
+    color: var(--paragraph-color);
+}
+
+.footer-brand h5,
+.footer-brand h6 {
+    margin: 1rem 2rem 0 2rem;
+    font-size: 2rem !important;
+    color: grey;
+    opacity: .5;
+}
+
+.footer-brand h6:hover {
+    color: var(--links-color);
+    cursor: pointer;
+}

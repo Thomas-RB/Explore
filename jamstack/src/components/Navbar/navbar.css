@@ -1,0 +1,64 @@
+.navbar {
+    height: 5rem;
+    background-color: var(--background-color) !important;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    color: var(--nav-items);
+}
+
+.navbar-brand:hover {
+    color: var(--nav-items);
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: var(--nav-items);
+}
+
+.nav-item a {
+    text-decoration: none !important;
+    margin-right: 2rem;
+    /* margin-top: 1rem; */
+}
+
+.nav-item a:hover {
+    color: var(--links-color) !important;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.fas,
+.far {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.fas:hover,
+.far:hover {
+    color: var(--links-color);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.far:last-child {
+    margin-right: 2rem !important;
+    margin-left: 2rem;
+}
+
+.fa-user-astronaut {
+    margin-right: 1rem;
+    font-size: 3rem;
+}
+
+.fa-user-astronaut:hover {
+    color: var(--nav-items);
+    cursor: default;
+}
+
+

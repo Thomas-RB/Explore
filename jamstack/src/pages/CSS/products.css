@@ -1,0 +1,39 @@
+.products-container {
+    display: flex;
+    background-color: var(--background-color) !important;
+}
+
+.products-container h1 {
+    position: relative;
+    height: 8rem;
+    top: -45rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: grey;
+    font-size: 15rem;
+    opacity: .08;
+}
+
+.products-container h2 {
+    position: absolute;
+    top: 13.8rem;
+    left: 68rem;
+    color: var(--big-title-color);
+    font-size: 8rem;
+    font-weight: 200;
+}
+
+.products-container h3 {
+    position: absolute;
+    top: 20rem;
+    left: 68rem;
+    color: var(--small-title-color);
+    font-size: 8rem;
+    font-weight: 400;
+}
+
+
+
+
+

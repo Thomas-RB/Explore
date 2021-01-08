@@ -1,0 +1,27 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 5.5rem;
+    margin-right: 2rem;
+    background-color:var(--sidebar-bg-color);
+    padding-bottom: 1rem;
+}
+
+
+.fab {
+    font-size: 2.4rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    color: var(--nav-items);
+}
+
+.fab:hover {
+    color: var(--links-color);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.fab:first-child {
+    margin-top: 71rem;
+}
