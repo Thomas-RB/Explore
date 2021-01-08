@@ -1,4 +1,4 @@
-name: Explore
+name: Gatsby Publish
 
 on:
   push:
@@ -13,5 +13,5 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.Explore }}
-          deploy-branch: master
+          deploy-branch: gh-pages
           gatsby-args: --prefix-paths
